@@ -1,0 +1,43 @@
+.record{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.seacrh-boxContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-box{
+    display: flex;
+    
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.search-box .icon{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    border-radius: 5pt;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: var(--light-gray);
+    border: none;
+    padding: 5px;
+}
+
+.pagination{
+    margin-top: auto;
+    
+    text-align: center;
+}
+
+.recordBox{
+    
+    flex: 1;
+}
